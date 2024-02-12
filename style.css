@@ -1,11 +1,66 @@
 /*----------------------------------------------- global css*/
+@import url(https://fonts.googleapis.com/css?family=Anton);
+@import url(https://fonts.googleapis.com/css?family=Verdana);
 *{
   "Verdana", Sans-serif
 }
 .title {
 	color: #5C6AC4;
 }
+
+.bg-all{
+  background-color: orange;
+}
+/*-----------------------------------------------header */
+.winbag-logo{
+  
+}
+
+.h1-title{
+  color: orange;
+  font-family: "Oswald", Sans-Serif;
+}
 /*-----------------------------------------------Bullet Points */
+.ul-border{
+  border: 1px solid black;
+}
+.ul-border>li{
+  border-bottom:1px solid black;
+}
+/*-----------------------------------------------images of winbag in use */
+.img-use-display{
+      display: inline;
+    width: 23%;
+}
+
+.winbag-use-bg{
+  background-color: #fafafa;
+  border-radius: 12px;
+  border: 1px solid black;
+}
 /*----------------------------------------------- Image Line*/
+.img-border{
+  margin: 10px;
+  border: 1px solid black;
+  border-radius: 12px;
+}
 /*----------------------------------------------- Full infomation*/
+.Info-bg{
+  background-color: black;
+  color: white;
+}
+.info-title{
+  display: flex !important;
+  justify-content: center;
+}
+.info-border{
+  border-bottom: 5px solid orange;
+}
+.margin-top{
+ margin-top: 10px !important; 
+}
 /*----------------------------------------------- Footer*/
+.rbb-logo{
+  width: 20%;
+  border-radius: 12px;
+}
