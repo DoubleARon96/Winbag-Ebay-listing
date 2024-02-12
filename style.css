@@ -59,6 +59,35 @@
 .margin-top{
  margin-top: 10px !important; 
 }
+/*----------------------------------------------- Other products images*/
+.img-other-products{
+  width: 50%;
+  border-radius: 12px;
+  margin-top: 10px;
+  
+}
+.other-list{
+  list-style-type: none;
+  padding: 5px;
+  margin: 5px;
+}
+
+.other-list>li {
+  color: black;
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 12px;
+}
+
+.other-product-styles{
+  border-radius: 12px;
+  width: 50%;
+  background-color: black;
+  border: 2px solid black;
+  color: white;
+  margin: 5px;
+  
+}
 /*----------------------------------------------- Footer*/
 .rbb-logo{
   width: 20%;
